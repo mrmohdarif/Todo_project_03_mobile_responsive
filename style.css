@@ -163,7 +163,9 @@ main {
 /* .div31:hover {
   box-shadow: 50px 50px 50px black;
 } */
-@media only screen and (max-width: 4140px )  {
+@media only screen and (max-width: 414px ) 
+ {
+
   a:link{
     margin-left: 0px;
     font-size: 30px;
@@ -195,7 +197,5 @@ main {
     height: 40px;
     padding: 0px;
   }
-  main {
-    border: 1px solid #c2c2c2;
-  }
+  
   }
