@@ -80,7 +80,7 @@ a {
   margin-right: 10px;
 }
 
-@media only screen and (max-width: 360px ) {
+@media only screen and (max-width: 414px ) {
   a:link{
     margin-left: 0px;
     font-size: 18px;
