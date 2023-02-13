@@ -105,6 +105,7 @@ input {
   left: 30%;
   right: 25%;
   z-index: 1;
+ 
 }
 .div41 {
   display: flex;
@@ -154,7 +155,7 @@ main {
   opacity: 0.33;
   z-index: -1;
 }
-@media only screen and (max-width: 360px ) {
+@media only screen and (max-width: 414px ) {
   a:link{
     margin-left: 0px;
     font-size: 30px;
@@ -167,14 +168,14 @@ main {
   }
   .div2{
     text-align: center;
-    padding: 10px;
-    width: 360px;
+    /* padding: 10px; */
+    width:280px;
    
   }
   .div3{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 0 30px;
 
   }
   .div31{
@@ -195,5 +196,13 @@ main {
   .btn{
     font-size: 20px;
     padding: 9px 15px 7px 15px;
+  }
+  .section2{
+    width:0 ;
+    margin:0;
+  }
+
+  main{
+    border: 1px solid #c2c2c2;
   }
   }
